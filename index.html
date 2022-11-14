@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body--style">
+    <div class="parent-container--alignment">
+      <div class="container--alignment">
+        <div class="container__container--style">
+          <h3 class="container__heading">Home</h3>
+          <p id="home_score" class="container__paragraph">0</p>
+          <button onclick="addOneHome()" class="container__button--style">
+            +1
+          </button>
+          <button onclick="addTwoHome()" class="container__button--style">
+            +2
+          </button>
+          <button onclick="addThreeHome()" class="container__button--style">
+            +3
+          </button>
+        </div>
+        <div class="container__container--style">
+          <h3 class="container__heading">Guest</h3>
+          <p id="guest_score" class="container__paragraph">0</p>
+          <button onclick="addOneGuest()" class="container__button--style">
+            +1
+          </button>
+          <button onclick="addTwoGuest()" class="container__button--style">
+            +2
+          </button>
+          <button onclick="addThreeGuest()" class="container__button--style">
+            +3
+          </button>
+        </div>
+      </div>
+      <div class="button-container">
+        <button onclick="reset()" class="button-container__button">
+          New Game
+        </button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

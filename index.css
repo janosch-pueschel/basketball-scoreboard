@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+}
+
+.body--style {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-color: black;
+  text-transform: uppercase;
+}
+
+.parent-container--alignment {
+  background-color: #1b244a;
+  display: flex;
+  flex-direction: column;
+  border: whitesmoke 5px solid;
+  border-radius: 3%;
+  width: 70%;
+  height: 70%;
+}
+
+.container--alignment {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container__container--style {
+  justify-content: center;
+}
+
+.container__heading {
+  text-align: center;
+  font-family: Verdana;
+  color: whitesmoke;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.container__button--style {
+  background-color: #1b244a;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 40px;
+  color: whitesmoke;
+  max-width: auto;
+  max-height: auto;
+  border: whitesmoke solid;
+  border-radius: 15%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-container__button {
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  border: black solid 3px;
+  border-radius: 10%;
+  background-color: rgba(245, 245, 245, 0.643);
+  padding: 15px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.container__paragraph {
+  background-color: black;
+  color: #f94f6d;
+  border-radius: 10%;
+  text-align: center;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+}
+
+.score--winner {
+  background-color: black;
+  color: #f94f6d;
+  border-radius: 10%;
+  text-align: center;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  border: yellow 2px solid;
+}
+
+.score--loser {
+  background-color: black;
+  color: #f94f6d;
+  border-radius: 10%;
+  text-align: center;
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+}
