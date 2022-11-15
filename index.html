@@ -6,34 +6,38 @@
       href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
     />
   </head>
-  <body class="body--style">
-    <div class="parent-container--alignment">
-      <div class="container--alignment">
-        <div class="container__container--style">
-          <h3 class="container__heading">Home</h3>
-          <p id="home_score" class="container__paragraph">0</p>
-          <button onclick="addOneHome()" class="container__button--style">
-            +1
-          </button>
-          <button onclick="addTwoHome()" class="container__button--style">
-            +2
-          </button>
-          <button onclick="addThreeHome()" class="container__button--style">
-            +3
-          </button>
+  <body>
+    <div class="background-container">
+      <div class="main-container--alignment">
+        <div class="main-container__score-container">
+          <h3 class="main-container__heading">Home</h3>
+          <p id="home_score" class="main-container__paragraph">0</p>
+          <div class="main-container__button-container">
+            <button onclick="addOneHome()" class="main-container__button">
+              +1
+            </button>
+            <button onclick="addTwoHome()" class="main-container__button">
+              +2
+            </button>
+            <button onclick="addThreeHome()" class="main-container__button">
+              +3
+            </button>
+          </div>
         </div>
-        <div class="container__container--style">
-          <h3 class="container__heading">Guest</h3>
-          <p id="guest_score" class="container__paragraph">0</p>
-          <button onclick="addOneGuest()" class="container__button--style">
-            +1
-          </button>
-          <button onclick="addTwoGuest()" class="container__button--style">
-            +2
-          </button>
-          <button onclick="addThreeGuest()" class="container__button--style">
-            +3
-          </button>
+        <div class="main-container__score-container">
+          <h3 class="main-container__heading">Guest</h3>
+          <p id="guest_score" class="main-container__paragraph">0</p>
+          <div class="main-container__button-container">
+            <button onclick="addOneGuest()" class="main-container__button">
+              +1
+            </button>
+            <button onclick="addTwoGuest()" class="main-container__button">
+              +2
+            </button>
+            <button onclick="addThreeGuest()" class="main-container__button">
+              +3
+            </button>
+          </div>
         </div>
       </div>
       <div class="button-container">
